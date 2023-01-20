@@ -10,11 +10,24 @@ module.exports = {
 
     theme: {
         extend: {
+
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                tangerine: ['Tangerine'],
+            },
+            colors: {
+                'sky_blue' : '#659DBD',
+                'forest-green' : '#8D8741',
+                'light-brown' : '#DAAD86',
+                'dark-brown' : '#BC986A',
+                'biege' : '#FBEEC1',
+
             },
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [ 
+                require('@tailwindcss/forms'),
+            ],
+    
 };

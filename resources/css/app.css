@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+.link{
+    @apply  px-6 rounded-2xl  bg-white py-2 text-sm text-black hover:bg-biege 
+}
 @tailwind utilities;
+.background-image{
+    height: 90vh;
+}
