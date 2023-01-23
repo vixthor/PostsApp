@@ -11,9 +11,6 @@
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"
     },
-    "platform": {
-        "php": "8.2.0"
-    },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
         "fakerphp/faker": "^1.9.1",
